@@ -2,8 +2,8 @@ Number and name of feature: Initial set up of city explorer front end with react
 
 Estimate of time needed to complete: 2 hrs
 
-Start time: _____
+Start time: 9:30 AM
 
-Finish time: _____
+Finish time: 11:30 AM
 
-Actual time needed to complete: _____
+Actual time needed to complete: 2 Hrs
