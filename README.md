@@ -7,3 +7,13 @@ Start time: 9:30 AM
 Finish time: 11:30 AM
 
 Actual time needed to complete: 2 Hrs
+
+Number and name of feature: Re package components 
+
+Estimate of time needed to complete: 2 hrs
+
+Start time: 9:30 AM
+
+Finish time: _____
+
+Actual time needed to complete: _____
