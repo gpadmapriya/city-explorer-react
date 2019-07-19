@@ -4,15 +4,14 @@ export default class Map extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      inputText: '',
-      location: {}
+      googleResults: {},
+      apiKey: ''
     }
   }
 
   render() {
     return (
-      < img src={`https://maps.googleapis.com/maps/api/staticmap?center=${this.state.location.latitude},${this.state.location.longitude}&zoom=13&size=600x300&maptype=roadmap&key=${process.env.REACT_APP_GEOCODE_API_KEY}`
-      } ></img >
+      <img src={`https://maps.googleapis.com/maps/api/staticmap?center=${this.props.googleResults.latitude}%2c%20${this.props.googleResults.longitude}&zoom=13&size=600x300&maptype=roadmap&key=${this.props.apiKey}`}></img>
     )
   }
 }
